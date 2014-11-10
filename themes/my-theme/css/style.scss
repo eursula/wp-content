@@ -1,0 +1,41 @@
+@import url(http://fonts.googleapis.com/css?family=Economica|Fira+Mono|Oxygen+Mono|Open+Sans|Open+Sans+Condensed:300);
+
+$background-color: #333839;
+$gold: #B2854C;
+
+body{
+	font-family: 'Open Sans';
+	background-color: $background-color;
+}
+
+header{
+	background: $background-color;
+	color: #fff;
+	-webkit-font-smoothing: antialiased;
+}
+
+header .container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#icon-user{
+	color: white;
+	font-size: 2em;
+	-webkit-font-smoothing: antialiased;
+}
+
+#name1{
+	font-family: 'Economica';
+	color: $gold;
+}
+
+#name2{
+	font-family: 'Open Sans';
+}
+
+.title{
+	display: flex;
+	flex-direction: column;
+}
